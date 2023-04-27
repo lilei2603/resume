@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	base: '/resume',
+	site: 'https://leiss.me',
+	base: 'resume',
 	integrations: [mdx(), sitemap()],
 });
